@@ -154,6 +154,14 @@
   margin-bottom: 10px; /* Space between lines */
   font-family: FankyBubble-1j2o4;
 }
+@media (max-width: 600px) {
+  .text-line {
+    font-size: 30px;  /* Smaller font size */
+    align-self: start;     /* Adjust position */
+    bottom: 20px; 
+    font-family: FankyBubble-1j2o4;    /* Adjust position */
+  }
+}
 .h1 {
   z-index: 2;
   color: #ffffff;
