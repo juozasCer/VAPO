@@ -159,6 +159,8 @@
     font-size: 30px;  /* Smaller font size */
     align-self: start;     /* Adjust position */
     bottom: 20px; 
+    left:50px;
+    position: relative;
     font-family: FankyBubble-1j2o4;    /* Adjust position */
   }
 }
