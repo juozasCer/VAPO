@@ -528,6 +528,37 @@
   margin-bottom: 100px;
   line-height: 45px;
 }
+@media (max-width: 1024px) {
+  .h3 {
+    font-size:300px;  /* Smaller font size */
+    align-items: center;    /* Adjust position */
+  bottom: 20px; 
+    position: relative;
+    font-family: FankyBubble-1j2o4;    /* Adjust position */
+  }
+}
+@media (max-width: 700px) {
+  .h3 {
+    font-size:100px;  /* Smaller font size */
+    align-items: center;    /* Adjust position */
+  bottom: 20px; 
+    position: relative;
+    font-family: FankyBubble-1j2o4;    /* Adjust position */
+  }
+}
+@media (max-width: 600px) {
+  .h3 {
+    font-size: 80px;  /* Smaller font size */
+    align-items: center;    /* Adjust position */
+  bottom: 20px; 
+    position: relative;
+    font-family: FankyBubble-1j2o4;    /* Adjust position */
+  }
+}
+
+
+
+
 
 .continue {
   color: #000000;
