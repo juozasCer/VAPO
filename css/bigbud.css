@@ -1414,9 +1414,9 @@
     height: 15%;
   }
 
-  .section_about {
+  /* .section_about {
     height: 700px;
-  }
+  } */
 
   .h1, .h1.dark, .h1.shadow_dark {
     font-size: 50px;
@@ -1438,7 +1438,7 @@
   }
 
   .para {
-    font-size: 14px;
+    font-size: 9px;
   }
 
   .chara_tokenomics {
