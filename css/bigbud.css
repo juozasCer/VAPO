@@ -1465,6 +1465,7 @@
     width: 100%;
   }
 
+
   .biglogo {
     top: -150px;
     width: 500px;
@@ -1559,4 +1560,30 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+.d1 {
+  z-index: 2;
+  color: #c2feff;
+  text-align: center;
+  /* -webkit-text-stroke-width: 2px; */
+  /* -webkit-text-stroke-color: #000; */
+  font-family: FankyBubble-1j2o4, sans-serif;
+  font-size: 200px;
+  line-height: 100px;
+  position: relative;
+  left:50px;
+  bottom: 250px;
+}
+.d2 {
+  z-index: 2;
+  color: #c2feff;
+  text-align: center;
+  /* -webkit-text-stroke-width: 2px; */
+  /* -webkit-text-stroke-color: #000; */
+  font-family: FankyBubble-1j2o4, sans-serif;
+  font-size: 200px;
+  line-height: 100px;
+  position: relative;
+  left:50px;
+  bottom: 0px;
 }
