@@ -607,9 +607,10 @@
 }
 
 .bud_about {
-  z-index: 2;
+  z-index: 1;
   width: 80%;
   height: 100%;
+  left:-100px;
   position: relative;
   justify-content: center;
   align-items: center;
