@@ -1166,11 +1166,12 @@
   font-family:FankyBubbleLine-nAr2J, sans-serif;
   display: flex;
   color:#000;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .button-3:hover {
   background-color: #3d8eb3;
+  font-family:FankyBubble-1j2o4, sans-serif;
 }
 
 .div-block-16 {
@@ -1614,4 +1615,33 @@
   position: relative;
   left:50px;
   bottom: 0px;
+}
+
+/* For small screens */
+@media (max-width: 600px) {
+  .d2 {
+    font-size: 100px;  /* Smaller font size */
+    left: 20px;        /* Adjust position */
+    bottom: 20px;     /* Adjust position */
+  }
+}
+
+/* For medium screens */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .d2 {
+    font-size: 150px;  /* Medium font size */
+    left: 30px;        /* Adjust position */
+    bottom: 20px;     /* Adjust position */
+  }
+}
+
+/* For large screens */
+@media (min-width: 1025px) {
+  .d2 {
+    
+    font-size: 200px;  /* Original large font size */
+    left: 50px;        /* Original position */
+    bottom: 20px; 
+    
+  }
 }
