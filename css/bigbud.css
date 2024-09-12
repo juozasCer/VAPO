@@ -417,6 +417,7 @@
   bottom: auto;
   left: 0%;
   right: 0%;
+  font-size: 40px;
 }
 
 @font-face {
@@ -1500,7 +1501,13 @@
   }
 
   .logo {
-    display: none;
+    height: 50px;
+    width: 500px;
+    font-size: 500px;
+  }
+  .dassad{
+    position: absolute;
+    font-size: 40px;
   }
 
   .header_right, .menu_socials {
