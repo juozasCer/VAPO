@@ -5,6 +5,7 @@
 
 .body {
   background-color: #185d75;
+  scrollbar-width: 0px;
 }
 
 .section_hero {
